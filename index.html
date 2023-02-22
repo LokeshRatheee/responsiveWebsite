@@ -29,23 +29,23 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      function openmenu() {
-        // debugger;
-        let element = document.getElementById("nav-iteam");
+      // function openmenu() {
+      //   // debugger;
+      //   let element = document.getElementById("nav-iteam");
 
-        if (element.classList.contains("open")) {
-          let nav = document.getElementById("nav");
-          nav.style.height = "60px";
-          console.log("open");
-          let element = document.getElementById("nav-iteam");
-          element.classList.remove("open");
-        } else {
-          let nav = document.getElementById("nav");
-          element.classList.toggle("open");
-          nav.style.height = "300px";
-          console.log("close");
-        }
-      }
+      //   if (element.classList.contains("open")) {
+      //     let nav = document.getElementById("nav");
+      //     nav.style.height = "60px";
+      //     console.log("open");
+      //     let element = document.getElementById("nav-iteam");
+      //     element.classList.remove("open");
+      //   } else {
+      //     let nav = document.getElementById("nav");
+      //     element.classList.toggle("open");
+      //     nav.style.height = "300px";
+      //     console.log("close");
+      //   }
+      // }
     </script>
   </head>
   <body>
@@ -56,9 +56,9 @@
             <img src="./assets/img/header/concept-logo.svg" alt="" srcset="" />
           </div>
 
-          <div style="border : transparent" id="menu-bar" class="menu-bar" onclick="openmenu()"
-            ><a><a class="fa-solid fa-bars" style="font-size: 1.5rem;"></a></i
-          ></div>
+          <div style="border : transparent" id="menu-bar" class="menu-bar" 
+            ><i class="fa-solid fa-bars" style="font-size: 1.5rem;"></i>
+          </div>
 
           <div class="nav-iteam" id="nav-iteam" id="nav-iteam">
             <div class="nav-iteams">Home</div>
