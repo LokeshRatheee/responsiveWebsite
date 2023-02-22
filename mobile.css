@@ -29,11 +29,11 @@
     display: grid;
     justify-self: start;
     align-self: center;
-    width: 11vh;
+    width: 80px;
     display: grid;
     padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 17px;
+    padding-bottom: 10px;
   }
   .menu-bar {
     display: grid;
