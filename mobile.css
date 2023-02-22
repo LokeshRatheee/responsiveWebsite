@@ -41,11 +41,11 @@
     align-self: center;
   
     /* padding-left: 75vw; */
-    padding-top: 15px;
+    /* padding-top: 15px; */
     /* grid-column: 1 / span1; */
   }
   .fa-2x {
-    font-size: 1.4em
+    font-size: 8em
 }
   .menu-bar:hover {
     cursor: pointer;
