@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concept</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="tablet.css">
+    <script
+      src="https://kit.fontawesome.com/daf7be8c79.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/daf7be8c79.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function openmenu() {
+        // debugger;
+        let element = document.getElementById("nav-iteam");
+
+        if (element.classList.contains("open")) {
+          let nav = document.getElementById("nav");
+          nav.style.height = "50px";
+          console.log("open");
+          let element = document.getElementById("nav-iteam");
+          element.classList.remove("open");
+        } else {
+          let nav = document.getElementById("nav");
+          element.classList.toggle("open");
+          nav.style.height = "300px";
+          console.log("close");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="navbar">
+        <div class="nav" id="nav" style="background-color: rgb(245, 245, 245)">
+          <div class="logo">
+            <img src="./assets/img/header/concept-logo.svg" alt="" srcset="" />
+          </div>
+
+          <a id="menu-bar" class="menu-bar" onclick="openmenu()"
+            ><i class="fa-solid fa-bars" style="font-size: 1.2rem;"></i
+          ></a>
+
+          <div class="nav-iteam" id="nav-iteam" id="nav-iteam">
+            <div class="nav-iteams">Home</div>
+            <div class="nav-iteams">Explore</div>
+            <div class="nav-iteams">Services</div>
+            <div class="nav-iteams">Portfolio</div>
+            <div class="nav-iteams">About</div>
+            <div class="nav-iteams">Contact</div>
+          </div>
+        </div>
+      </div>
+      <div class="art-of-desgin">
+        <img
+          src="./assets/img/header/hero-home.jpg"
+          class="art-img"
+          alt=""
+          srcset=""
+        />
+        <h1>Art of Design</h1>
+        <p style="text-align: center">
+          Powerful, extensible, and feature-packed frontend toolkit. Bulid and
+          customize with Sass, utilize prebulid grid system and components, and
+          bring projects to life with Javascript plugins.
+        </p>
+        <div class="buttons">
+          <button class="free-consultation">Free Consultation</button>
+          <button class="buy-credits">Buy Credits</button>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio-heading">
+          <h2>Portfolio</h2>
+
+          <p style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    id maiores excepturi? 
+            </p
+          >
+
+          <hr />
+        </div>
+        <img
+          src="./assets/img/portfolio/masonry-img-1.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-2.jpg"
+          alt=""
+          class="portfolio-img big-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-3.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-4.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-5.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-6.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-7.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-8.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+        <img
+          src="./assets/img/portfolio/masonry-img-9.jpg"
+          alt=""
+          class="portfolio-img"
+        />
+      </div>
+
+      <div class="service" style="background-color: rgb(245, 245, 245)">
+        <div class="service-heading">
+          <h1>Services</h1>
+
+          <p style="text-align: center;">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    rem doloribus id maiores excepturi? Omnis veritatis
+                </p
+          >
+
+          <hr />
+        </div>
+        <div class="cards">
+          <h3 class="cards-numbers">1</h3>
+
+          <h3 class="cards-headings">SEO Consulting</h3>
+
+          <p style="text-align: center;" class="cards-p">
+  Lorem ipsum dolor sit, amet consectetur
+   adipisicing elit. Quisquam vero quo 
+  culpa error hic officia.
+            </p
+          >
+        </div>
+        <div class="cards">
+          <h3 class="cards-numbers">2</h3>
+
+          <h3 class="cards-headings">Web Development</h3>
+
+          <p style="text-align: center;" class="cards-p">
+  Lorem ipsum dolor sit, amet consectetur
+    adipisicing elit. Quisquam vero quo 
+  culpa error hic officia.
+            </p
+          >
+        </div>
+        <div class="cards">
+          <h3 class="cards-numbers">3</h3>
+
+          <h3 class="cards-headings">Digital Strategy</h3>
+
+          <p style="text-align: center;" class="cards-p">
+  Lorem ipsum dolor sit, amet consectetur
+    adipisicing elit. Quisquam vero quo 
+   culpa error hic officia.
+            </p
+          >
+        </div>
+        <div class="cards">
+          <h3 class="cards-numbers">4</h3>
+
+          <h3 class="cards-headings">Web Design</h3>
+
+          <p style="text-align: center;" class="cards-p">
+  Lorem ipsum dolor sit, amet consectetur
+   adipisicing elit. Quisquam vero quo 
+  culpa error hic officia.
+            </p
+          >
+        </div>
+        <div class="cards">
+          <h3 class="cards-numbers">5</h3>
+
+          <h3 class="cards-headings">Digital Marketing</h3>
+
+          <p style="text-align: center;" class="cards-p">
+   Lorem ipsum dolor sit, amet consectetur
+    adipisicing elit. Quisquam vero quo 
+   culpa error hic officia.
+            </p
+          >
+        </div>
+        <div class="cards">
+          <h3 class="cards-numbers">6</h3>
+
+          <h3 class="cards-headings">Media Production</h3>
+
+          <p style="text-align: center;" class="cards-p">
+  Lorem ipsum dolor sit, amet consectetur
+   adipisicing elit. Quisquam vero quo 
+   culpa error hic officia.
+            </p
+          >
+        </div>
+      </div>
+
+      <div class="achiviments">
+        <div class="achive-heading">
+          <h1>Achievements</h1>
+
+          <div class="achive-p" style="text-align: center;"><p >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                       doloribus id maiores excepturi?
+                </p
+                
+          >
+        </div>
+
+          <hr />
+        </div>
+        <div class="happy-customers">
+          <i class="fa-regular fa-user achive-icons"></i>
+
+          <h1 style="padding-top: 20px">120K</h1>
+
+          <p style="padding-bottom: 50px;" >Happy Customers</p>
+        </div>
+        <div class="issues-solved">
+          <i class="fa-solid fa-wave-square achive-icons"></i>
+
+          <h1 style="padding-top: 20px">1890+</h1>
+
+          <p style="padding-bottom: 50px;">Issues Solved</p>
+        </div>
+        <div class="finised-projects">
+          <i class="fa-solid fa-briefcase achive-icons"></i>
+
+          <h1 style="padding-top: 20px">250K</h1>
+          <p style="padding-bottom: 50px;">Finised Projects</p>
+        </div>
+
+        <div class="awards-winning">
+          <i class="fa-regular fa-star achive-icons"></i>
+
+          <h1 style="padding-top: 20px">786+</h1>
+
+          <p style="padding-bottom: 50px;">Awward Winning</p>
+        </div>
+      </div>
+
+      <div class="testmonials" style="background-color: rgb(245, 245, 245)">
+        <div class="testi-heading">
+          <h1>Testimonials</h1>
+
+          <p >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    rem doloribus id maiores excepturi? Omnis veritatis
+                </p
+          >
+
+          <hr />
+        </div>
+        <div class="cards-testi">
+          <img src="./assets/img/portfolio/testimonial-img-1.jpg" alt="" />
+
+          <p >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Consectetur ducimus perspiciatis unde.
+          </p>
+
+          <h2>Luna John - Marketer</h2>
+        </div>
+
+        <div class="cards-testi">
+          <img src="./assets/img/portfolio/testimonial-img-2.jpg" alt="" />
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Consectetur ducimus perspiciatis unde.
+          </p>
+          <h2>Mark Smith - Designer</h2>
+        </div>
+
+        <div class="cards-testi">
+          <img src="./assets/img/portfolio/testimonial-img-3.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Consectetur ducimus perspiciatis unde.
+          </p>
+          <h2>Micheal Wilson -SEO</h2>
+        </div>
+        <div class="cards-testi">
+          <img src="./assets/img/portfolio/testimonial-img-4.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Consectetur ducimus perspiciatis unde.
+          </p>
+          <h2>Luke Reeves - Sales</h2>
+        </div>
+      </div>
+      <!-- <div class="clients">
+        <div class="clients-heading">
+          <h1>Clients</h1>
+
+          <pre>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    rem doloribus id maiores excepturi? Omnis veritatis
+                </pre
+          >
+
+          <hr />
+        </div>
+        <img
+          class="clients-img"
+          src="./assets/img/clients/icons8-star-wars-150.png"
+          alt=""
+        />
+        <img
+          class="clients-img"
+          src="./assets/img/clients/icons8-disney-plus-500.png"
+          alt=""
+        />
+        <img
+          class="clients-img"
+          src="./assets/img/clients/icons8-audi-500.png"
+          alt=""
+        />
+        <img
+          class="clients-img"
+          src="./assets/img/clients/netflix.png"
+          alt=""
+        />
+      </div> -->
+      <div class="footerbar">
+        <div class="footer">
+          <div class="left">
+            <h5>2023. All Right Reserved.</h5>
+            <p>Build by BootstrapBrain</p>
+          </div>
+          <div class="right">
+            <i class="fa-brands fa-facebook footer-icons"></i>
+            <i class="fa-brands fa-youtube footer-icons"></i>
+            <i class="fa-brands fa-twitter footer-icons"></i>
+            <i class="fa-brands fa-instagram footer-icons"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
