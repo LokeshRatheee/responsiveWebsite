@@ -20,7 +20,7 @@
     grid-template-columns: repeat(2, auto);
     max-width: 600px;
     width: 100%;
-    height: 50px;
+    height: 60px;
     grid-template-areas:
       "logo . menu-icon"
       "nav-iteam nav-iteam nav-iteam";
@@ -39,9 +39,9 @@
     display: grid;
     justify-self: end;
     align-self: center;
-  
+    /* padding-left: 100px; */
     /* padding-left: 75vw; */
-    /* padding-top: 15px; */
+    padding-top: 15px;
     /* grid-column: 1 / span1; */
   }
   .fa-2x {
